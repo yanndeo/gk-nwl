@@ -11,4 +11,8 @@ namespace App\core;
 class Deactivation
 {
 
+    public static function handle()
+    {
+        flush_rewrite_rules();
+    }
 }

@@ -35,7 +35,12 @@ define( 'WP_PHP_AJX_REQ_NONCE_SECURITY', 'keep_calm_you_are_protected_hh' );
 function activatePlugin() {
     \App\core\Activation::handle();
 }
+function deactivatePlugin() {
+    \App\core\Deactivation::handle();
+}
 register_activation_hook(__FILE__, 'activatePlugin' );
+register_deactivation_hook(__FILE__, 'deactivatePlugin' );
+
 if (class_exists(\App\Init::class ) ) {
     \App\Init::registerServices();  //no need singleton
 }
