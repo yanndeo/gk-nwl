@@ -7,7 +7,9 @@
  
 Installation et mise en marche.
    - Télécharger le plugin sur un wordpress à jour (minimum 5.2 et php 7.4)
-   - Executer composer wp-content/plugins/gk-nwl
+   - Renommer le dossier par gk-nwl
+   - installer le plugin depuis l'installateur wordpress
+   - Executer composer /wp-content/plugins/gk-nwl
    - Installer le plugin depuis le panneau d'administration
    - Utiliser le code suivant ['nwl_form'] pour afficher le shortcode du formulaire n'importe 
    sur votre site
