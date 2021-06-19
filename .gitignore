@@ -4,6 +4,7 @@
 /src/sourcing/*.yml
 /app/shortcode/database.*
 /app/shortcode/*.csv
+/.idea/
 
 
 
