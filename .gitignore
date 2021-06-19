@@ -1,0 +1,11 @@
+/vendor/
+/app/core/Help.php
+/src/sourcing/*.csv
+/src/sourcing/*.txt
+/src/sourcing/*.yml
+/app/shortcode/database.*
+/app/shortcode/*.csv
+
+
+
+

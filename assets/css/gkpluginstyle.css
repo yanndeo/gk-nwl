@@ -1,0 +1,35 @@
+.nwl-form {
+    width: 600px;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.nwl-form-input-area {
+    width: 65%;
+}
+
+.nwl-form-input  {
+    width: 100%;
+    color: #006FAB!important;
+}
+
+.nwl-form-btn-area .nwl-form-btn  {
+    background-color: #006FAB!important;
+    text-transform: uppercase;
+    border: 2px solid #006FAB;
+    color: #fff;
+    padding: 0 8px;
+    height: 56px;
+    border-radius: 0;
+}
+
+.nwl-form-btn-area .nwl-form-btn:hover {
+    background-color: #fff!important;
+    color: #006FAB;
+}
+
+#nwl-validation-form-message {
+    padding: 0;
+    font-size: 14px;
+}
